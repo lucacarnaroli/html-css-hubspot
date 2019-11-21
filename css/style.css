@@ -3,43 +3,101 @@
   margin: 0px;
   padding: 0px;
 }
+header {
+  font-family: 'Roboto', sans-serif;
+}
 .header-box {
-  height: 500px;
-  width: 100%;
-  background-color: red;
+  background-image: url(../img/jumbotron.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 530px;
 }
 .div-box {
-  width: 75%;
-  height: 80px;
+  width: 85%;
   margin: 0px auto;
-}
-.div-box {
-  content: '';
-  display: table;
-  clear: both;
 }
 ul {
   list-style: none;
 }
+/* navbar A */
 .nav-a {
-  background-color: yellow;
+  width: 100%;
+  background-color: white;
   height: 70px;
+  line-height: 40px;
 }
-nav .list-sx, .list-dx {
+.nav-a::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.list-sx, .list-dx {
   display: inline;
 }
+/* navbar A sx */
 .navbar-sx {
   float: left;
   padding: 15px;
-  background-color: pink;
+  margin-left: 6.5%;
 }
+.en {
+  margin-right: 25px;
+  /* border-right: 3px solid black; */
+}
+/* navbar B dx */
 .navbar-dx {
   float: right;
   padding: 15px;
-  background-color: green;
+  margin-right: 6.5%;
 }
-
+.get {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  width: 30px;
+  border-radius: 8px;
+  margin-left: 25px;
+}
+.get:hover {
+  background-color: rgba(245, 172, 32, 0.6) ;
+}
+.log {
+  border: 2px solid orange;
+  padding:7px;
+  border-radius: 8px;
+  color: orange;
+}
+.log:hover {
+  background-color: rgb(246, 227, 204);
+}
+/* navbar B */
 .nav-b {
-  background-color: grey;
+  background-color: white;
   height: 60px;
+  line-height: 30px;
+}
+/* testi header */
+.test-header-h1 {
+  width: 50%;
+  font-size: 50px;
+}
+.testheader {
+  margin-top: 20px;
+}
+.line-h5{
+  width: 45%;
+}
+.line-h3 {
+  background-color: orange;
+  width: 13%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+.headerfoot {
+  background-color: rgba(64, 222, 201, 0.67);
+  height: 50px;
+  border: 2px solid black;
 }
