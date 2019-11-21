@@ -5,6 +5,7 @@
 }
 header {
   font-family: 'Roboto', sans-serif;
+  color: rgb(42, 55, 94)
 }
 .header-box {
   background-image: url(../img/jumbotron.png);
@@ -34,22 +35,42 @@ ul {
 }
 .list-sx, .list-dx {
   display: inline;
+
 }
 /* navbar A sx */
 .navbar-sx {
   float: left;
   padding: 15px;
   margin-left: 6.5%;
+  position: relative;
 }
 .en {
-  margin-right: 25px;
-  /* border-right: 3px solid black; */
+  margin-right: 30px;
+  border-right: 1px solid black;
+  padding-right: 25px;
+}
+.fas {
+  float: left;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 5px;
 }
 /* navbar B dx */
 .navbar-dx {
   float: right;
   padding: 15px;
   margin-right: 6.5%;
+  position: relative;
+}
+.list-dx {
+  margin-left: 40px;
+  padding-left: 20px;
+}
+.fa-angle-down {
+float: right;
+position: absolute;
+padding-left: 20px;
+line-height: 30px;
 }
 .get {
   background-color: orange;
@@ -74,10 +95,14 @@ ul {
 /* navbar B */
 .nav-b {
   background-color: white;
-  height: 60px;
-  line-height: 30px;
+  height: 70px;
+  line-height: 35px;
 }
 /* testi header */
+.test {
+  margin-top: 50px;
+
+}
 .test-header-h1 {
   width: 50%;
   font-size: 50px;
@@ -95,6 +120,9 @@ ul {
   text-align: center;
   color: white;
   border-radius: 8px;
+}
+.line-h3:hover {
+  background-color: rgba(245, 172, 32, 0.6);
 }
 .headerfoot {
   background-color: rgba(64, 222, 201, 0.67);
