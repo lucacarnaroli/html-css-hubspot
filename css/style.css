@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.header-box {
+  height: 500px;
+  width: 100%;
+  background-color: red;
+}
+.div-box {
+  width: 85%;
+  height: 80px;
+  margin: 0px auto;
+}
+.div-box {
+  content: '';
+  display: table;
+  clear: both;
+}
+ul {
+  list-style: none;
+}
+.nav-a {
+  background-color: yellow;
+  height: 70px;
+}
+nav .list-sx, .list-dx {
+  display: inline;
+}
+.navbar-sx {
+  float: left;
+  padding: 15px;
+  background-color: pink;
+}
+.navbar-dx {
+  float: right;
+  padding: 15px;
+  background-color: green;
+}
+
+.nav-b {
+  background-color: grey;
+  height: 60px;
+}
