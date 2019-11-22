@@ -144,7 +144,7 @@ ul {
 }
 .main-box {
   height: 300px;
-  background-color: rgba(21, 217, 199, 0.22);
+  background-color: rgba(29, 180, 157, 0.1);
 }
 /* box 1 */
 .main-box1 {
@@ -163,6 +163,9 @@ ul {
   width: 120px;
   height: 40px;
   border-radius: 6px;
+}
+.learn-buttom:hover {
+  background-color: rgba(245, 172, 32, 0.6);
 }
 .learn-buttom h4{
   font-size: 18px;
@@ -205,29 +208,29 @@ ul {
 .box3 {
   display: inline-block;
   text-align: center;
+  margin-top: 20px;
+}
+.box3 img {
   margin-top: 10px;
 }
 /* colonna 1 */
-.col1 img {
-  margin-top: 10px;
-}
 .col1 {
-  background-color: rgba(203, 240, 233, 0.78);
+  background-color: rgba(29, 180, 157, 0.1);
   height: 450px;
   width: 250px;
   float: left;
 }
 /* colonna 2  */
 .col2 {
-  background-color: pink;
-  height: 400px;
+  background-color: rgba(29, 180, 157, 0.1);
+  height: 450px;
   width: 250px;
   margin-left: 100px;
 }
 /* colonna 3 */
 .col3 {
-  background-color: pink;
-  height: 500px;
+  background-color: rgba(29, 180, 157, 0.1);
+  height: 450px;
   width: 250px;
   margin-left: 90px;
   float: right;
@@ -251,11 +254,6 @@ ul {
   height: 80px;
   width: 250px;
 }
-.icon-col {
-  content: '';
-  display: table;
-  clear: both;
-}
 .col-check {
   height: 12px;
   width: 11px;
@@ -264,4 +262,26 @@ ul {
 .listacol li {
   float: left;
   margin-left: 20px;
+}
+/* colonna 2 tool*/
+.col2 h3, h4 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.col2 p {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 13px;
+  line-height: 18px;
+}
+/* colonna 3 tool */
+.col3 h3, h4 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.col3 p {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 13px;
+  line-height: 18px;
 }
