@@ -3,17 +3,17 @@
   margin: 0px;
   padding: 0px;
 }
-header {
+body {
   font-family: 'Roboto', sans-serif;
   color: rgb(42, 55, 94);
 }
+
 .header-box {
   background-image: url(../img/jumbotron.png);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 530px;
-  width: 100%;
+  height: 550px;
+
 }
 .div-box {
   width: 65%;
@@ -36,17 +36,17 @@ ul {
 }
 .list-sx, .list-dx {
   display: inline;
-
 }
 /* navbar A sx */
 .navbar-sx {
+  width: 30%;
   float: left;
   padding: 15px;
-  margin-left: 6.5%;
   position: relative;
+  text-align: left;
 }
 .en {
-  margin-right: 30px;
+  margin-right: 20px;
   border-right: 1px solid black;
   padding-right: 25px;
 }
@@ -58,20 +58,21 @@ ul {
 }
 /* navbar B dx */
 .navbar-dx {
+  width: 70%;
   float: right;
   padding: 15px;
-  margin-right: 6.5%;
+  text-align: right;
   position: relative;
 }
 .list-dx {
-  margin-left: 40px;
+  margin-left: 20px;
   padding-left: 20px;
 }
 .fa-angle-down {
-float: right;
-position: absolute;
-padding-left: 20px;
-line-height: 30px;
+  float: right;
+  position: absolute;
+  padding-left: 20px;
+  line-height: 30px;
 }
 .get {
   background-color: orange;
@@ -95,6 +96,7 @@ line-height: 30px;
 }
 /* navbar B */
 .nav-b {
+  width: 100%;
   background-color: white;
   height: 70px;
   line-height: 35px;
@@ -102,7 +104,6 @@ line-height: 30px;
 /* testi header */
 .test {
   margin-top: 50px;
-
 }
 .test-header-h1 {
   width: 50%;
@@ -129,7 +130,7 @@ line-height: 30px;
   background-color: rgba(64, 222, 201, 0.67);
   height: 50px;
   border: 2px solid black;
-  width: 100%;
+  /* width: 100%; */
 }
 .cubo {
   text-align: center;
@@ -143,6 +144,7 @@ line-height: 30px;
 }
 .main-box {
   height: 300px;
+  background-color: rgba(21, 217, 199, 0.22);
 }
 /* box 1 */
 .main-box1 {
@@ -176,11 +178,11 @@ line-height: 30px;
 }
 .main-h4 {
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .main-h5 {
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .icon-box2 ul li{
   display: inline;
@@ -193,4 +195,73 @@ line-height: 30px;
   float: right;
   margin-left: 5px;
   display: inline;
+}
+.main-box3 {
+  height: 300px;
+  float: none;
+  position: absolute;
+  margin-top: 300px;
+}
+.box3 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+/* colonna 1 */
+.col1 img {
+  margin-top: 10px;
+}
+.col1 {
+  background-color: rgba(203, 240, 233, 0.78);
+  height: 450px;
+  width: 250px;
+  float: left;
+}
+/* colonna 2  */
+.col2 {
+  background-color: pink;
+  height: 400px;
+  width: 250px;
+  margin-left: 100px;
+}
+/* colonna 3 */
+.col3 {
+  background-color: pink;
+  height: 500px;
+  width: 250px;
+  margin-left: 90px;
+  float: right;
+}
+.hr {
+  padding: 5%;
+  margin: 8px;
+}
+/* colonna 1 tool */
+.col1 h3, h4 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.col1 p {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 13px;
+  line-height: 18px;
+}
+.icon-col {
+  height: 80px;
+  width: 250px;
+}
+.icon-col {
+  content: '';
+  display: table;
+  clear: both;
+}
+.col-check {
+  height: 12px;
+  width: 11px;
+  margin-right: 5px;
+}
+.listacol li {
+  float: left;
+  margin-left: 20px;
 }
