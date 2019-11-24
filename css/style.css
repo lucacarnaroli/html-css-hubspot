@@ -144,7 +144,7 @@ ul {
 }
 .main-box {
   height: 1000px;
-  background-color: rgba(29, 180, 157, 0.1);
+  background-color: #fff;
 }
 /* box 1 */
 .main-box1 {
@@ -302,7 +302,7 @@ ul {
 }
 .conteiner-table {
   background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
-  height: 600px;
+  height: 450px;
 }
 .title1-table {
   text-align: center;
@@ -312,21 +312,132 @@ ul {
 }
 .title2-table {
   text-align: center;
-
 }
 .tabella {
   margin-top: 20px;
   height: 100px;
   width: 100%;
-  
 }
 .tabella tr  {
   text-align: center;
-
 }
-.tabella tr td {
+.tabella tr td h4{
   font-size: 30px;
   font-family: sans-serif;
   color: white;
-
+}
+.tabella tr td p {
+  font-size: 13px;
+  color: #fff;
+}
+.section-1{
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+.section-2 {
+  width: 350px;
+}
+.section-1 h2 {
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.section-2 h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.section-buttom {
+  background-color: orange;
+  border-radius: 6px;
+  margin-top: 20px;
+  height: 30px;
+  width: 90px;
+}
+.section-buttom:hover {
+  background-color: rgba(245, 172, 32, 0.6);
+}
+.buttom-section {
+  color: #fff;
+}
+.section-2 h4 {
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+}
+.section-2 h5 {
+  margin-top: 20px;
+}
+.footer-box {
+  background-color: rgb(51, 99, 130);
+  height: 500px;
+}
+.colfooter-1 {
+  height: 200px;
+  width: 230px;
+  display: inline-block;
+}
+.colfooter-1 h4 {
+  font-family: sans-serif;
+  color: #fff;
+}
+.colfooter-1 ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.colfooter-1 ul li:first-child{
+  margin-top: 20px;
+}
+.buttom-contact {
+  background-color: orange;
+  width: 100px;
+  float: left;
+  border-radius: 6px;
+}
+.buttom-contact:hover {
+  background-color: rgba(245, 172, 32, 0.6);
+}
+.buttom-contact h4 {
+  text-align: center;
+  margin: 8px;
+}
+.icon-footer {
+  float: right;
+  height: 40px;
+  margin-right: 80px;
+  margin-top: 40px;
+}
+.icon-footer .fab {
+  padding: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+.list-lang li{
+  display: inline;
+  line-height: 200px;
+  padding: 7px;
+  color: #fff;
+}
+.list-lang {
+  text-align: center;
+  margin-left: 200px;
+  height: 110px;
+}
+.legal-footer {
+  float: right;
+  margin-top: 40px;
+}
+.legal-footer p {
+  display: inline;
+  color: #fff;
+  margin: 5px;
+}
+.footer-hub {
+  float: left;
+  margin: 5px;
+  color: #fff;
 }
